@@ -26,7 +26,7 @@ If you don't have a Spring Boot application yet, you can create one using [Sprin
 
 Create a Dockerfile in the root of your Spring Boot project. This file contains instructions for building a Docker image for your application. Here's a basic example:
 
-```dockerfile
+ 
 FROM openjdk:11-jre-slim
 VOLUME /tmp
 ADD target/your-spring-boot-app.jar app.jar
