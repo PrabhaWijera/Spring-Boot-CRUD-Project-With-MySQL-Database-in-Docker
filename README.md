@@ -171,7 +171,7 @@ Get Data
 
 https://www.youtube.com/watch?v=U2GCM0GBzNI&t=1924s
 
-
+🔖🔖🔖🔖🔖🔖🔖🔖🔖🔖🔖🔖🔖🔖🔖🔖🔖🔖🔖🔖🔖🔖🔖🔖🔖🔖🔖🔖🔖🔖🔖🔖🔖🔖🔖🔖🔖🔖🔖🔖🔖🔖🔖🔖🔖🔖🔖🔖🔖🔖
 # Spring Boot Docker MySQL Project License
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
@@ -183,7 +183,7 @@ https://www.youtube.com/watch?v=U2GCM0GBzNI&t=1924s
 Copyright (c) 2023 Prabhash Wijerathna
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
+of this software and associated documentation files (the "Spring Boot Docker MySQL Project"), to deal
 in the Software without restriction, including without limitation the rights
 to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software, and to permit persons to whom the Software is
