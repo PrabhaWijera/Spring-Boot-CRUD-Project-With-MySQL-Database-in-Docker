@@ -28,3 +28,9 @@ Open your web browser and go to http://localhost:8080 to verify that your Spring
 
 -------------------------------------------------------------------------------                  ------------------------------------------------------------
 ![image](https://github.com/PrabhaWijera/Spring-Boot-CRUD-Project-With-MySQL-Database-in-Docker/assets/106425954/8f246ff4-d49c-438a-86a1-0a057e51c862)
+
+# Create Docker Image
+
+![image](https://github.com/PrabhaWijera/Spring-Boot-CRUD-Project-With-MySQL-Database-in-Docker/assets/106425954/f0703470-3a31-473c-a637-bc0afb13136b)
+![image](https://github.com/PrabhaWijera/Spring-Boot-CRUD-Project-With-MySQL-Database-in-Docker/assets/106425954/9748498e-3c48-4294-ae9c-075116411758)
+
