@@ -110,3 +110,44 @@ What's Next?
 ![image](https://github.com/PrabhaWijera/Spring-Boot-CRUD-Project-With-MySQL-Database-in-Docker/assets/106425954/5bc0f14e-e5c5-44ab-b6e6-b576e649ce23)
 
 ![image](https://github.com/PrabhaWijera/Spring-Boot-CRUD-Project-With-MySQL-Database-in-Docker/assets/106425954/c2dab11a-bbb7-4396-88d0-3c15c9e3252e)
+
+docker ps
+
+![image](https://github.com/PrabhaWijera/Spring-Boot-CRUD-Project-With-MySQL-Database-in-Docker/assets/106425954/7aea236f-969c-4aab-be21-20c3eeab98e5)
+docker network ls
+
+![image](https://github.com/PrabhaWijera/Spring-Boot-CRUD-Project-With-MySQL-Database-in-Docker/assets/106425954/35ee334b-861a-4457-a6c5-9bd3a2028027)
+
+
+![image](https://github.com/PrabhaWijera/Spring-Boot-CRUD-Project-With-MySQL-Database-in-Docker/assets/106425954/81ceb40b-e7ad-48ac-84fb-1e2f337f4574)
+----------------------------------
+# Network Inspect
+
+![image](https://github.com/PrabhaWijera/Spring-Boot-CRUD-Project-With-MySQL-Database-in-Docker/assets/106425954/649ea542-5da0-4f34-8432-52aff7f46f86)
+
+ ![image](https://github.com/PrabhaWijera/Spring-Boot-CRUD-Project-With-MySQL-Database-in-Docker/assets/106425954/92d9a490-ca44-4845-97eb-8ff0681e1f75)
+------------------------------------------------
+ # Adding Application to Local network & Run the Docker Container !
+ 
+
+![image](https://github.com/PrabhaWijera/Spring-Boot-CRUD-Project-With-MySQL-Database-in-Docker/assets/106425954/439d2cd1-362e-4cce-8c55-cf760bc16a1a)
+
+ docker run -p 9090:8080 --name springboot-mysql-docker --net spring-network -e MYSQL_HOST=mysqldb -e MYSQL_USER=root -e MYSQL_PASSWORD=root -e MYSQL_PORT=3306 springboot-mysql-docker
+
+![image](https://github.com/PrabhaWijera/Spring-Boot-CRUD-Project-With-MySQL-Database-in-Docker/assets/106425954/8a11181b-b4e8-49a4-af50-829437062364)
+
+ # Application is UP 🔰🔰🔰
+
+ ![image](https://github.com/PrabhaWijera/Spring-Boot-CRUD-Project-With-MySQL-Database-in-Docker/assets/106425954/d1a55c9a-accf-45fe-ac03-5ceaa0b09e26)
+
+ ----------------------------------- Checking 📺🔍🪲-----------------------------------
+without Running application Only use Docker we can add Data.
+![image](https://github.com/PrabhaWijera/Spring-Boot-CRUD-Project-With-MySQL-Database-in-Docker/assets/106425954/9bffc9b0-2035-4bf2-ac01-628d75f24443)
+![image](https://github.com/PrabhaWijera/Spring-Boot-CRUD-Project-With-MySQL-Database-in-Docker/assets/106425954/9ac7ef15-ca6d-4ecc-a22a-0817df19590e)
+====IN My sql DataBase==
+![image](https://github.com/PrabhaWijera/Spring-Boot-CRUD-Project-With-MySQL-Database-in-Docker/assets/106425954/fec9f241-18a0-4bad-b2cd-bbe0650268df)
+&
+Get Data
+![image](https://github.com/PrabhaWijera/Spring-Boot-CRUD-Project-With-MySQL-Database-in-Docker/assets/106425954/1d0ad21e-0d1c-4fda-9ef5-bf0467a52d2e)
+
+https://www.youtube.com/watch?v=U2GCM0GBzNI&t=1924s
