@@ -1,19 +1,37 @@
-   # Spring-Boot-CRUD-Project-With-MySQL-Database-in-Docker
+# Spring Boot CRUD Project With MySQL Database in Docker
 
-![image](https://github.com/PrabhaWijera/Spring-Boot-CRUD-Project-With-MySQL-Database-in-Docker/assets/106425954/24fb5675-db71-4e19-88eb-44a96c877422)
+![Project Image](https://github.com/PrabhaWijera/Spring-Boot-CRUD-Project-With-MySQL-Database-in-Docker/assets/106425954/24fb5675-db71-4e19-88eb-44a96c877422)
 
-# Docker is a containerization platform that allows you to package and distribute your applications along with their dependencies. Here's a step-by-step guide to setting up a Docker project for a Spring Boot application:
-Install Docker-Desktop.
-1. Install Docker:
-Ensure that Docker is installed on your machine. You can download and install Docker from the official website: Docker.
-2. Create a Spring Boot Application:
-If you don't have a Spring Boot application yet, you can create one using Spring Initializr or your preferred method. Include the necessary dependencies for your project.
-3. Dockerfile:
+## Introduction
+
+This project demonstrates how to set up a Spring Boot CRUD application with a MySQL database, containerized using Docker. Docker allows you to package and distribute your applications along with their dependencies in a consistent and portable way.
+
+## Prerequisites
+
+Before you begin, make sure you have the following installed:
+
+- [Docker Desktop](https://www.docker.com/products/docker-desktop)
+
+## Getting Started
+
+### 1. Install Docker
+
+Ensure that Docker is installed on your machine. You can download and install Docker from the [official website](https://www.docker.com/products/docker-desktop).
+
+### 2. Create a Spring Boot Application
+
+If you don't have a Spring Boot application yet, you can create one using [Spring Initializr](https://start.spring.io/) or your preferred method. Include the necessary dependencies for your project.
+
+### 3. Dockerfile
+
 Create a Dockerfile in the root of your Spring Boot project. This file contains instructions for building a Docker image for your application. Here's a basic example:
+
+```dockerfile
 FROM openjdk:11-jre-slim
 VOLUME /tmp
 ADD target/your-spring-boot-app.jar app.jar
 ENTRYPOINT ["java","-jar","/app.jar"]
+
 ![image](https://github.com/PrabhaWijera/Spring-Boot-CRUD-Project-With-MySQL-Database-in-Docker/assets/106425954/a3e7c6cd-f09c-444c-8309-b2a1fdc8032c)
 Replace your-spring-boot-app with the actual name of your Spring Boot application.
 4. Build Docker Image:
