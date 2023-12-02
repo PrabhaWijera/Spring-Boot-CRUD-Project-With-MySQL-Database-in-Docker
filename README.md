@@ -1,4 +1,5 @@
-# Spring-Boot-CRUD-Project-With-MySQL-Database-in-Docker
+   # Step By Step Spring-Boot-CRUD-Project-With-MySQL-Database-in-Docker
+
 ![image](https://github.com/PrabhaWijera/Spring-Boot-CRUD-Project-With-MySQL-Database-in-Docker/assets/106425954/24fb5675-db71-4e19-88eb-44a96c877422)
 
 # Docker is a containerization platform that allows you to package and distribute your applications along with their dependencies. Here's a step-by-step guide to setting up a Docker project for a Spring Boot application:
